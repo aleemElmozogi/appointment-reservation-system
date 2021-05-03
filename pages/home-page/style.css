@@ -290,103 +290,38 @@ body{
 
 
 .side-bar{
-
     display: inline-block;
     box-shadow: 1px 1px 12px 1px #444242;
     background-color: #4285f4;
     margin: 15px 35px 20px;
     border-radius: 30px;
     width: 250px;
-    height:835px;
+    height:fit-content;
     padding: 20px;
     
 }
-.side-bar #messenger{
+.side-bar #doctor-profile{
     border-radius: 20px;
-    height: 300px;
+    height: 220px;
     box-shadow: 0px 0px 2px 0px #beb8b8;
     background-color: #4285f4;
     padding: 20px;
 }
-.side-bar #messenger h2{
-    color: #f4f9ff;
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-family: 'Bitter', serif;
-    display: inline;
-}
-.side-bar #new-message{
-    width: 30px;
-    height: 30px;
-    align-self: center;
-    position: relative;
-    bottom: 4px;
-    padding-right: 5px;
-    padding-bottom: 2px;
-    float: right;
-    cursor: pointer;
-    background-image: url("icons/plus.png");
-    background-repeat: no-repeat;
-    
-}
-.side-bar #messenger #messages{
-    width: 215px;
-    height: 280px;
-    margin-bottom: 10px;
-    overflow-y: scroll;
-}
-.side-bar #messenger #messages #message-details:hover{
-    background-color:#356dc7;
-    cursor:pointer;
-}
-.side-bar #messenger #messages #message-details{
-    margin: 10px 2px 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color:#4285f4;
-    box-shadow: 0px 1px 2px 1px #beb8b8;
-    height: 30px;
-}
-.side-bar #messenger #messages #message-details #avatar{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border-radius: 20px;
-    background-color: #f4f9ff;
-    box-shadow: 1px 1px 3px 1px #ebe3e3;
 
-
-}
-.side-bar #messenger #messages #message-details #message{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px 5px 0px;
-}
-.side-bar #messenger #messages #message-details #message #user-name{
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-family: 'Bitter', serif;
-    color: #f4f9ff;
-}
-.side-bar #messenger #messages #message-details #message #last-message{
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-family: 'Bitter';
-    color: #c7c9cc;
-}
 
 .side-bar #booking{
     border-radius: 20px;
-    height: 440px;
+    height: 530px;
     box-shadow: 0px 0px 2px 0px #beb8b8;
     background-color: #4285f4;
     padding: 20px;
     margin-top: 20px;
 }
 .side-bar #booking h2{
-    color: #f4f9ff;
+    
     font-size: 18px;
     letter-spacing: 1px;
+    color: #f4f9ff;
     font-family: 'Bitter', serif;
     display: inline;
     
@@ -450,8 +385,3 @@ body{
     background-color:  #b6d4f3;
     
 }
-
-
-
-
-
